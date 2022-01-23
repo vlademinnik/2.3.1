@@ -64,6 +64,7 @@ public class HibernateConfig {
 
         return emfb;
     }
+
     @Bean
     public PlatformTransactionManager transactionManager() {
         JpaTransactionManager transactionManager = new JpaTransactionManager();
